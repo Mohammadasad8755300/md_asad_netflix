@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 200px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+.netflix{
+    height: 600px;
+    width: 100%;
+    background-image: url(download.jpeg);
+    
+}
+nav{
+    height: 75px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    
+}
+
+nav img{
+    height: 75px;
+    width: 200px;
+}
+nav>button{
+    height: 44px;
+    width: 150px; 
+    position: absolute;
+    margin-left: 60%;  
+    margin-top: 10px; 
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+nav>.sign{
+    height: 44px;
+    width: 100px; 
+    position: absolute;
+    margin-left: 72%;  
+    margin-top: 10px; 
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+
+}
+.netflix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.netflix h1{
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.netflix p{
+    color: white;
+    font-size: 30px;
+    margin-top:100px;
+    margin-right: 10px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.netflix .pra{
+    color: white;
+    /* font-size: 40px; */
+    margin-top:180px;
+    margin-right: 10px;
+    position: absolute;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.netflix input{
+    color: black;
+    border-radius: 7px;
+    margin-top:300px;
+    margin-right: 270px;
+    position: absolute;
+    height: 50px;
+    width: 420px;
+    
+    
+}
+
+.netflix .get{ 
+    background-color: red;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 7px;
+    margin-top: 300px;
+    margin-right: -420px;
+    position: absolute;
+    height: 53px;
+    width: 240px;
+    border: none;
+}
+.line{
+    height: 10px;
+    width: 100%;
+    background: rgb(65, 63, 63);
+}
+
+.playstation{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.playstation h1{
+    color: white;
+    margin-top: 200px;
+    margin-left: 10rem;
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.playstation .minibox{
+    color: white;
+    margin-top: 30px;
+    height: 300px;
+    width: auto;
+}
+
+/* .playstation img{
+    height: 300px;
+    width: 450px;
+    margin-top: 115px;
+} */
+
+.playstation .minibox p{
+    margin-left: 160px;
+    font-size: 26px;
+}
+
+
+.playstation{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.playstation h1{
+    color: white;
+    margin-top: 200px;
+    margin-left: 10rem;
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.playstation .minibox{
+    color: white;
+    margin-top: 30px;
+    height: 300px;
+    width: auto;
+}
+
+.playstation .minibox p{
+    margin-left: 160px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.playstationimg{
+    margin-top: 115px;
+    margin-left: 20px;
+    
+}
+
+.login{
+height: 780px;
+width: 100%;
+background: black;
+}
+
+.login  h1{
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.login .bar{
+    height: 75px;
+    width: 70%;
+    background: rgb(49, 47, 47);
+    margin-top: 10px;
+}
+
+.login .bar p{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login .bar h2{
+    text-align: right;
+    color: white;
+    margin-top: -33px;
+    margin-right: 20px;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login  p{
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login input{
+    background-color: black;
+    color: rgb(110, 110, 110);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    margin-top:20px;
+    margin-right: 200px;
+    /* position: absolute; */
+    height: 50px;
+    width: 350px;
+    
+}
+
+.login .get{ 
+    background-color: red;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 7px;
+    height: 53px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left:-195px;
+    position: absolute;
+    border: none;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background: black;
+}
+.footer h1 a{
+    font: 20px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .box1{
+    height: 140px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.footer .box1 ul li {
+    padding-top: 10px;
+}
+
+.footer .box1 ul li a{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer .box2{
+    height: 140px;
+    width: 200px;
+    margin-left: 420px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.footer .box2 ul li {
+    padding-top: 10px;
+}
+
+.footer .box2 ul li a{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer .box3{
+    height: 140px;
+    width: 200px;
+    margin-left: 800px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.footer .box3 ul li {
+    padding-top: 10px;
+}
+
+.footer .box3 ul li a{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer .box4{
+    height: 140px;
+    width: 200px;
+    margin-left: 1200px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.footer .box4 ul li {
+    padding-top: 10px;
+    
+}
+
+.footer .box4 ul li a{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
